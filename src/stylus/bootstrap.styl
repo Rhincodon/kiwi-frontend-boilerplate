@@ -1,0 +1,46 @@
+/*
+Box
+Border
+Background
+Text
+Others
+*/
+@import 'sprites.styl'
+
+*
+    box-sizing border-box
+
+html, body
+    font-family 'Open Sans', sans-serif
+    font-weight normal
+
+body
+    lost-utility clearfix
+
+h1
+    text-align center
+    color #000
+
+ul
+    lost-center 600px
+    padding 0
+    list-style-type none
+    li
+        lost-column 1/2
+        background #eee
+        padding 10px
+        text-align center
+        border 1px solid transparent
+        &:hover
+            cursor pointer
+            border 1px solid #aaa
+        &::before
+            content ""
+            display block
+            margin 0 auto 5px auto
+        &:first-child
+            &::before
+                retinaSprite($kiwi_group)
+        &:last-child
+            &::before
+                retinaSprite($kiwifruit_group)
