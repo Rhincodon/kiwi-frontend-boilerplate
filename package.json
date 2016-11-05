@@ -36,15 +36,15 @@
     "gulp-uglify": "^2.0.0",
     "gulp.spritesmith": "^6.2.1",
     "lost": "^7.1.0",
-    "rupture": "^0.6.1",
+    "rupture": "^0.6.2",
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0",
     "vueify": "^9.2.4"
   },
   "dependencies": {
-    "vue": "^2.0.1",
+    "vue": "^2.0.5",
     "vue-resource": "^1.0.3",
-    "vue-router": "^2.0.0"
+    "vue-router": "^2.0.1"
   },
   "aliasify": {
     "aliases": {
