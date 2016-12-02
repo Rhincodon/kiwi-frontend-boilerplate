@@ -7,10 +7,6 @@ module.exports = function() {
         }
     });
 
-    this.gulp.watch([
-        `${config.get('js.sourceDir')}/**/*.js`,
-        `${config.get('js.sourceDir')}/**/*.vue`
-    ], ['js']);
     this.gulp.watch(`${config.get('css.sourceDir')}/**/*.css`, ['css']);
     this.gulp.watch(`${config.get('stylus.sourceDir')}/**/*.styl`, ['styles']);
     this.gulp.watch(`${config.get('html.sourceDir')}/**/*.html`, ['fileinclude']);
