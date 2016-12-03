@@ -6,5 +6,5 @@ module.exports = function () {
     return this.gulp.src(`${config.get("js.targetDir")}/app.js`)
         .pipe(rename('app.min.js'))
         .pipe(uglify())
-        .pipe(this.gulp.dest(config.get("js.targetDir")));
+        .pipe(this.gulp.dest(config.get('js.targetDir')));
 };
