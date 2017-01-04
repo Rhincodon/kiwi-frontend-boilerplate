@@ -38,7 +38,7 @@
     "gulp-uglify": "^2.0.0",
     "gulp.spritesmith": "^6.2.1",
     "lodash.assign": "^4.2.0",
-    "lost": "^7.1.0",
+    "lost": "^8.0",
     "rupture": "^0.6.2",
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0",
