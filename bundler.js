@@ -31,7 +31,7 @@ module.exports = function(gulp) {
                 .pipe(source(`bootstrap.js`))
                 .pipe(rename('app.js'))
                 .pipe(gulp.dest(config.get('js.targetDir')))
-                .pipe(notify('JS'));
+                .pipe(notify('JS Compiled'));
         }
     }
 };

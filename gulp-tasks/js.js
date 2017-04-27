@@ -19,5 +19,5 @@ module.exports = function () {
         .pipe(buffer())
         .pipe(rename('app.js'))
         .pipe(this.gulp.dest(config.get('js.targetDir')))
-        .pipe(notify('JS'));
+        .pipe(notify('JS Compiled'));
 };

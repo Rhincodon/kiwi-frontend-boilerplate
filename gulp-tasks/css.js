@@ -9,5 +9,5 @@ module.exports = function () {
         .pipe(concat('build.min.css'))
         .pipe(this.gulp.dest(`${config.get('css.targetDir')}`))
         .pipe(this.opts.browserSync.stream())
-        .pipe(notify('CSS'));
+        .pipe(notify('CSS Compiled'));
 };
