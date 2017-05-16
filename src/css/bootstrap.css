@@ -5,6 +5,24 @@ Background
 Text
 Others
 */
+.text-center {
+  text-align: center;
+}
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+.cf:before {
+  content: '';
+  display: table;
+}
+.cf:after {
+  content: '';
+  display: table;
+  clear: both;
+}
 * {
   box-sizing: border-box;
 }
@@ -12,4 +30,7 @@ html,
 body {
   font-family: 'Open Sans', sans-serif;
   font-weight: normal;
+}
+#app {
+  background: #fafafa;
 }
