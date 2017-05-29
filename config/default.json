@@ -2,7 +2,9 @@
     "html": {
         "sourceDir": "./src/html",
         "targetDir": "./build",
-        "includesDir": "includes"
+        "includesDir": "includes",
+        "index": "./build/*.html",
+        "root": "./build"
     },
     "stylus": {
         "sourceDir": "./src/stylus",

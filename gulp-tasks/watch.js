@@ -12,4 +12,7 @@ module.exports = function() {
     this.gulp.watch(`${config.get('html.sourceDir')}/**/*.html`, ['fileinclude']);
     this.gulp.watch(`${config.get('html.targetDir')}/*.html`).on('change', this.opts.browserSync.reload);
     this.gulp.watch(`${config.get('js.targetDir')}/*.js`).on('change', this.opts.browserSync.reload);
+
+    this.gulp.watch(`${config.get('css.targetDir')}/*.css`, ['asset-version']);
+    this.gulp.watch(`${config.get('js.targetDir')}/*.js`, ['asset-version']);
 };
