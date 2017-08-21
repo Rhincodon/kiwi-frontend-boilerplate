@@ -55,7 +55,7 @@
   },
   "aliasify": {
     "aliases": {
-      "vue": "vue/dist/vue.runtime"
+      "vue": "vue/dist/vue.runtime.common.js"
     }
   }
 }
