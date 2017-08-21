@@ -13,7 +13,7 @@ module.exports = function () {
     return browserify({
         entries: `${config.get("js.sourceDir")}/bootstrap.js`,
         debug: false,
-        transform: [babelify.configure({presets: ['es2015']}), vueify, aliasify, envify]
+        transform: [babelify, vueify, aliasify, envify]
     }).bundle()
         .pipe(source(`bootstrap.js`))
         .pipe(buffer())

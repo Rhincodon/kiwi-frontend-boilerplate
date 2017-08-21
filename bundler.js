@@ -18,7 +18,7 @@ let customOpts = {
 let opts = assign({}, watchify.args, customOpts);
 let b = watchify(browserify(opts));
 
-b.transform(babelify.configure({presets: ['es2015']}));
+b.transform(babelify);
 b.transform(vueify);
 b.transform(aliasify);
 b.transform(envify);

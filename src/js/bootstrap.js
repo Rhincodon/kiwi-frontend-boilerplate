@@ -9,4 +9,11 @@ window.$http = axios.create({
 
 Vue.use(VueRouter);
 
-require('./app');
+const vueApp = require('./app.vue');
+
+new Vue({
+    el: '#app',
+    render: function (createElement) {
+        return createElement(vueApp)
+    }
+});
