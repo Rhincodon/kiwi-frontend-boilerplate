@@ -2,7 +2,6 @@ const config = require('config');
 const browserify = require('browserify');
 const babelify = require('babelify');
 const vueify = require('vueify');
-const aliasify = require('aliasify');
 const envify = require('envify');
 const rename = require('gulp-rename');
 const source = require('vinyl-source-stream');
@@ -13,8 +12,11 @@ module.exports = function () {
     return browserify({
         entries: `${config.get("js.sourceDir")}/bootstrap.js`,
         debug: false,
-        transform: [babelify, vueify, aliasify, envify]
-    }).bundle()
+    })
+        .transform(babelify)
+        .transform(vueify)
+        .transform(envify, {global: true, _: 'purge'})
+        .bundle()
         .pipe(source(`bootstrap.js`))
         .pipe(buffer())
         .pipe(rename('app.js'))

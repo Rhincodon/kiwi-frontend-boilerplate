@@ -15,7 +15,6 @@
   "author": "rhinodontypicus@gmail.com",
   "license": "ISC",
   "devDependencies": {
-    "aliasify": "^2.0.0",
     "babel-core": "^6.17.0",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-plugin-transform-runtime": "^6.15.0",
@@ -34,6 +33,7 @@
     "gulp-notify": "^3.0.0",
     "gulp-postcss": "^6.2.0",
     "gulp-rename": "^1.2.2",
+    "gulp-sequence": "^0.4.6",
     "gulp-stylus": "^2.6.0",
     "gulp-task-loader": "^1.4.4",
     "gulp-uglify": "^2.0.0",
@@ -53,9 +53,7 @@
     "vue-router": "^2.7.0",
     "vueify": "^9.4.1"
   },
-  "aliasify": {
-    "aliases": {
-      "vue": "vue/dist/vue.runtime.common.js"
-    }
+  "browser": {
+    "vue": "vue/dist/vue.runtime.common.js"
   }
 }
