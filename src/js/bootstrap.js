@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-const axios = require('axios');
+import axios from 'axios'
+import vueApp from './app.vue'
 
 window.Vue = Vue;
 window.$http = axios.create({
@@ -8,8 +9,6 @@ window.$http = axios.create({
 });
 
 Vue.use(VueRouter);
-
-const vueApp = require('./app.vue');
 
 new Vue({
     el: '#app',
