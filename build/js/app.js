@@ -12019,7 +12019,7 @@ exports.default = {
 if (module.exports.__esModule) module.exports = module.exports.default
 var __vue__options__ = (typeof module.exports === "function"? module.exports.options: module.exports)
 __vue__options__.render = function render () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _vm._m(0)}
-__vue__options__.staticRenderFns = [function render () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"space-in-tall-kilo-xs"},[_c('p',{staticClass:"text-center"},[_vm._v("Frontend Template")])])}]
+__vue__options__.staticRenderFns = [function render () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"text-center p-8"},[_c('button',{staticClass:"bg-blue hover:bg-blue-dark text-white font-bold py-2 px-4 rounded"},[_vm._v("\n        Frontend Template\n    ")])])}]
 
 },{}],31:[function(require,module,exports){
 'use strict';

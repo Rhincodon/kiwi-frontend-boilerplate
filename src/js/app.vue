@@ -1,6 +1,8 @@
 <template>
-    <div class="space-in-tall-kilo-xs">
-        <p class="text-center">Frontend Template</p>
+    <div class="text-center p-8">
+        <button class="bg-blue hover:bg-blue-dark text-white font-bold py-2 px-4 rounded">
+            Frontend Template
+        </button>
     </div>
 </template>
 
