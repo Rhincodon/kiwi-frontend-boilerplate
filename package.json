@@ -43,6 +43,7 @@
     "lodash.assign": "^4.2.0",
     "lost": "^8.0",
     "rupture": "^0.6.2",
+    "tailwindcss": "^0.4.1",
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0",
     "vueify": "^9.4.1",
