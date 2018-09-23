@@ -1,0 +1,8 @@
+body {
+    background: #aaa;
+}
+
+.retina-icon {
+    display: block;
+    @include retina-sprite($icon-group)
+}

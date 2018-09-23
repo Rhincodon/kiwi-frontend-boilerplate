@@ -1,0 +1,14 @@
+/*
+Box
+Border
+Background
+Text
+Others
+*/
+@tailwind preflight;
+@tailwind components;
+@import 'sprites.scss';
+
+@import 'app.scss';
+
+@tailwind utilities;

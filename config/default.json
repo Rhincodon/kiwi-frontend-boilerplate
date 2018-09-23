@@ -6,8 +6,8 @@
         "index": "./build/*.html",
         "root": "./build"
     },
-    "stylus": {
-        "sourceDir": "./src/stylus",
+    "scss": {
+        "sourceDir": "./src/scss",
         "targetDir": "./src/css"
     },
     "css": {
@@ -16,7 +16,7 @@
     },
     "sprite": {
         "path": "./src/img/icons/*.png",
-        "cssName": "./src/stylus/sprites.styl",
+        "cssName": "./src/scss/sprites.scss",
         "imgPath": "../img/sprites/sprite.png",
         "retinaImgPath": "../img/sprites/sprite-2x.png",
         "imgName": "./build/img/sprites/sprite.png",

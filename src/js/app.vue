@@ -1,6 +1,7 @@
 <template>
     <div class="text-center text-lg">
         Frontend Template
+        <span class="retina-icon"></span>
     </div>
 </template>
 
