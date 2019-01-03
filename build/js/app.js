@@ -12632,7 +12632,7 @@ if (module.exports.__esModule) module.exports = module.exports.default
 var __vue__options__ = (typeof module.exports === "function"? module.exports.options: module.exports)
 if (__vue__options__.functional) {console.error("[vueify] functional components are not supported and should be defined in plain js files using render functions.")}
 __vue__options__.render = function render () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _vm._m(0)}
-__vue__options__.staticRenderFns = [function render () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"text-center text-lg"},[_vm._v("\n    Frontend Template\n    "),_c('span',{staticClass:"retina-icon"})])}]
+__vue__options__.staticRenderFns = [function render () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"text-center text-lg p-6"},[_vm._v("\n    Frontend Template\n    "),_c('span',{staticClass:"retina-icon"})])}]
 if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
   hotAPI.install(require("vue"), true)
   if (!hotAPI.compatible) return
@@ -12640,7 +12640,7 @@ if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
   if (!module.hot.data) {
     hotAPI.createRecord("data-v-11877526", __vue__options__)
   } else {
-    hotAPI.reload("data-v-11877526", __vue__options__)
+    hotAPI.rerender("data-v-11877526", __vue__options__)
   }
 })()}
 },{"vue":31,"vue-hot-reload-api":29}],33:[function(require,module,exports){

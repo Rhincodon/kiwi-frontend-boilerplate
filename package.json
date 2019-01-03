@@ -43,7 +43,7 @@
     "gulp-wait": "0.0.2",
     "gulp.spritesmith": "^6.2.1",
     "lodash.assign": "^4.2.0",
-    "tailwindcss": "^0.6.6",
+    "tailwindcss": "^0.7.3",
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^2.0.0",
     "vueify": "^9.4.1",
